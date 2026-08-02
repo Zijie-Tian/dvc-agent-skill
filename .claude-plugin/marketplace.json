@@ -1,0 +1,21 @@
+{
+  "name": "dvc-agent-skills",
+  "owner": {
+    "name": "DVC Agent Skill Maintainers"
+  },
+  "metadata": {
+    "description": "Agent Skills for DVC (Data Version Control): data/model versioning, pipelines, remotes, and experiments",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "dvc",
+      "description": "DVC skill for versioning data/models, building reproducible pipelines, configuring remotes, and managing experiments",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/dvc"
+      ]
+    }
+  ]
+}

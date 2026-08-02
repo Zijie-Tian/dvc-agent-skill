@@ -1,0 +1,11 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "MLOps / Data",
+      "description": "Skills for data versioning, ML pipelines, and experiment workflows.",
+      "skills": ["dvc"]
+    }
+  ]
+}

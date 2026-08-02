@@ -1,0 +1,4 @@
+interface:
+  display_name: "DVC Data Version Control"
+  short_description: "Version data, pipelines, remotes, ML experiments"
+  default_prompt: "Use $dvc to set up data versioning, remotes, and a reproducible ML pipeline in this project."
